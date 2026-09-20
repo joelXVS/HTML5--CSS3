@@ -1,0 +1,89 @@
+body {
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-size: 16px;
+  margin: 0;
+  color: #3B1F0B;
+  background-color: #FFF8E1;
+}
+
+header {
+  background-color: #FFC107;  /* amarillo dorado */
+  padding: 10px 20px;
+  text-align: center;
+}
+
+nav {
+  background-color: #E65100;  /* naranja oscuro intenso */
+  padding: 10px 0;
+  border-radius: 6px;
+}
+
+nav ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+li {
+  display: inline-block;
+  width: 180px;
+  text-align: center;
+}
+
+nav a {
+  color: #FFF8E1;           
+  text-decoration: none;
+  font-weight: bold;
+}
+
+nav a:hover {
+  color: #FFEB3B;   
+  text-decoration: underline;
+}
+
+main {
+  background-color: #FFF3E0;  /* naranja muy pálido / crema */
+  font-size: 1.05em;
+  padding: 20px;
+  margin: 15px;
+  border-left: 6px solid #D32F2F; /* acento rojo */
+  border-radius: 6px;
+}
+
+main a {
+  color: #D32F2F; 
+  font-weight: bold;
+}
+
+main a:hover {
+  color: #E65100;   
+}
+
+/* ---------- Pie de página ---------- */
+footer {
+  background-color: #B71C1C;  /* rojo profundo */
+  color: #FFF8E1;             /* texto amarillo claro para contraste */
+  padding: 15px 20px;
+  font-size: 0.9em;
+}
+
+footer a {
+  color: #FFC107;  
+}
+
+/* ---------- Título principal ---------- */
+h1 {
+  text-align: center;
+  font-family: Georgia, "Times New Roman", serif;
+  color: #B71C1C;             /* rojo profundo */
+}
+
+/* ---------- Párrafos ---------- */
+p {
+  line-height: 1.6;
+}
+
+img {
+  border-radius: 6px;
+  margin: 4px;
+}
